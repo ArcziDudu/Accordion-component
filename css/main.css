@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #471612;
+}
+
+body p {
+  margin-bottom: 0.5em;
+}
+
+body .fas, body .far {
+  margin-right: 20px;
+  color: #471612;
+}
+
+body .accordion {
+  width: 800px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+body .accordion .accordion-box {
+  margin: 20px;
+}
+
+body .accordion .accordion-box .accordion-btn {
+  padding: 1em;
+  width: 100%;
+  font-size: 30px;
+  text-align-last: left;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+body .accordion .accordion-box .accordion-btn:hover, body .accordion .accordion-box .accordion-btn:focus {
+  background-color: #471612;
+  color: #fff;
+  outline: none;
+}
+
+body .accordion .accordion-box .accordion-btn:hover .fas, body .accordion .accordion-box .accordion-btn:hover .far, body .accordion .accordion-box .accordion-btn:focus .fas, body .accordion .accordion-box .accordion-btn:focus .far {
+  color: #fff;
+}
+
+body .accordion .accordion-box .accordion-info {
+  padding: 1em 2em;
+  display: none;
+}
+
+body .accordion .accordion-box .active {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
